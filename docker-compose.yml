@@ -19,7 +19,7 @@ services:
     ports:
       - "9092:9092"
 
-  consumer:
+  app:
     build: .
     depends_on:
       - kafka
